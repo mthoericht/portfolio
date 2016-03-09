@@ -1,0 +1,180 @@
+[
+  {
+    "id": "basketball",
+    "subcategory": "casual",
+    "title": "Basketball",
+    "description": "For the ball-physic the Box2D-engine was used. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/Basketball.jpg",
+    "large_image": "media/swf/Basketball.swf",
+    "width": "613",
+    "height": "507"
+  },
+  {
+    "id": "bootyShaker",
+    "subcategory": "casual",
+    "title": "Booty Shaker",
+    "description": "The user get points on press the direction exactly if the icon in the crosshair. It's playable by keyboard-keys or by the mouse (click the direction o the buttons). Assets: Serhat Sariyilmaz, Guido Bastian, Ersin Soyer (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/BootyShaker.jpg",
+    "large_image": "media/swf/BootyShaker.swf",
+    "width": "600",
+    "height": "550"
+  },
+  {
+    "id": "fishing",
+    "subcategory": "casual",
+    "title": "Fishing Game",
+    "description": "This is a reaction game. The bigger the fish, the more difficult it is to react in time. One must also take care that you do not accidentally collect the scrap. Assets: Sebastian Adomat (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/Fishing-job.jpg",
+    "large_image": "media/swf/Fishing-job.swf",
+    "width": "570",
+    "height": "370"
+  },
+  {
+    "id": "goldmine",
+    "subcategory": "casual",
+    "title": "Goldmine",
+    "description": "The user has to search gold-nuggets with a flashlight in a short time. Assets: Serhat Sariyilmaz, Marko Schmidt (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/Goldmine.jpg",
+    "large_image": "media/swf/Goldmine.swf",
+    "width": "700",
+    "height": "430"
+  },
+  {
+    "id": "easterEggs",
+    "subcategory": "casual",
+    "title": "Easter Eggs",
+    "description": "The user has to collect the eggs and have to hand them to the easter-rabbit. It is possible to catch special-items (more speed, faster spawn, etc.). Assets: Serhat Sariyilmaz, Oliver Pagels (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/HLO_Eastereggs.jpg",
+    "large_image": "media/swf/HLO_EasterEggs.swf",
+    "width": "800",
+    "height": "600"
+  },
+  {
+    "id": "rocketMontage",
+    "subcategory": "casual",
+    "title": "Rocket Montage",
+    "description": "The goal is to assign the predetermined parts of a new-years eve rocket out of the box with drag and drop in a short time. Assets: Sebastian Irmer, Serhat Sariyilmaz, Marko Schmidt (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/HLO_RocketMontage.jpg",
+    "large_image": "media/swf/HLO_RocketMontage.swf",
+    "width": "589",
+    "height": "464"
+  },
+  {
+    "id": "hotDog",
+    "subcategory": "casual",
+    "title": "Hot-Dog",
+    "description": "The goal is to provide customers with the desired hot dog and a drink in a short time. Only when the hot dog has the ingredients according to the wishes, you get the full money. Assets: Sebastian Adomat (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/HotDog.jpg",
+    "large_image": "media/swf/HotDog.swf",
+    "width": "575",
+    "height": "468"
+  },
+  {
+    "id": "loveTower",
+    "subcategory": "casual",
+    "title": "Love-Tower",
+    "description": "The aim is the tower to stack so that no items fall. The higher and slate the tower is built, the more it swing. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/loveTower.jpg",
+    "large_image": "media/swf/loveTower.swf",
+    "width": "490",
+    "height": "620"
+  },
+  {
+    "id": "lowRider",
+    "subcategory": "casual",
+    "title": "Lowrider",
+    "description": "The user get points on press the direction exactly if the icon in the square. It's playable by keyboard-keys or by the mouse (click the direction o the buttons). Assets: Guido Bastian (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/Lowrider.jpg",
+    "large_image": "media/swf/LowRider.swf",
+    "width": "680",
+    "height": "565"
+  },
+  {
+    "id": "petChallenge",
+    "subcategory": "casual",
+    "title": "Pet-Challenge",
+    "description": "Is a reaction-game. The goal is the finishline without a collision. The pet can jump and crowd. Assets: Serhat Sariyilmaz, Ersin Soyer (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/PetChallenge.jpg",
+    "large_image": "media/swf/PetChallenge.swf",
+    "width": "610",
+    "height": "510"
+  },
+  {
+    "id": "racing",
+    "subcategory": "casual",
+    "title": "Racing",
+    "description": "This is a flee game. If you come without a collision to your destination, you have won. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/racing.jpg",
+    "large_image": "media/swf/racing.swf",
+    "width": "420",
+    "height": "630"
+  },
+  {
+    "id": "snowBoard",
+    "subcategory": "casual",
+    "title": "Snowboard",
+    "description": "A game with obstacles, where you avoid and flags that you should drive around from the correct side. The stars and ramps gives extra points. Assets: Guido Bastian, Ersin Soyer (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/Snowboard.jpg",
+    "large_image": "media/swf/SnowBoard.swf",
+    "width": "600",
+    "height": "665"
+  },
+  {
+    "id": "starConstellation",
+    "subcategory": "casual",
+    "title": "Star Constellation",
+    "description": "Is a drawing-game for zodiac signs. You have to keep the left mouse pressed at the starting point and move the cursor along the bright line. Assets: Sebastian Irmer (developed for smeet.com)",
+    "thumb_image": "media/swf/thumbnails/StarConstellations.jpg",
+    "large_image": "media/swf/StarConstellations.swf",
+    "width": "625",
+    "height": "420"
+  },
+  {
+    "id": "roulette",
+    "subcategory": "multiplayer",
+    "title": "Roulette",
+    "description": "This game is for gambling in smeet.com. The random numbers of the roulette kettle and game times are defined for security reasons by the server side. The animations and gamefield (incl. possible interactions) i had realized in Flash. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/Roulette.jpg",
+    "large_image": "media/img/multiplayerGames/Roulette.jpg"
+  },
+  {
+    "id": "battleship",
+    "subcategory": "multiplayer",
+    "title": "Battleship",
+    "description": "Is like the pencil and paper game for 2 players. The players place their ships and then have to guess where the enemy ship is placed in alternating each player. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/Battleship2.jpg",
+    "large_image": "media/img/multiplayerGames/Battleship2.jpg"
+  },
+  {
+    "id": "dicepoker",
+    "subcategory": "multiplayer",
+    "title": "Dice Poker",
+    "description": "Is also known as Poker Dice. This game is played with 5 dice and two or more players. Each player has a total of 3 rolls and the ability to hold dice in between rolls. After the three rolls the best hand wins. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/DicePoker.jpg",
+    "large_image": "media/img/multiplayerGames/DicePoker.jpg"
+  },
+  {
+    "id": "backgammon",
+    "subcategory": "multiplayer",
+    "title": "Backgammon",
+    "description": "It's the classical version for two players where playing pieces are moved according to the roll of dice, and a player wins by removing all of his pieces from the board before his opponent. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/Backgammon.jpg",
+    "large_image": "media/img/multiplayerGames/Backgammon.jpg"
+  },
+  {
+    "id": "smeetolactic",
+    "subcategory": "multiplayer",
+    "title": "Smeetolactic",
+    "description": "This roundbased Dual Player Game I even designed. It is a building strategy game. Each user has settlers who can grow with barracks. Towers used for defense and the power plants produce energy. The energy required for moving to other planets and for the construction of new buildings. Assets: Serhat Sariyilmaz, Marcus Thöricht (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/Smeetolactic2.jpg",
+    "large_image": "media/img/multiplayerGames/Smeetolactic2.jpg"
+  },
+  {
+    "id": "checkers",
+    "subcategory": "multiplayer",
+    "title": "Checkers",
+    "description": "Is a classical game for two players which involve diagonal moves of uniform game pieces and mandatory captures by jumping over opponent pieces. Assets: Serhat Sariyilmaz (developed for smeet.com)",
+    "thumb_image": "media/img/multiplayerGames/thumbnails/Checkers.jpg",
+    "large_image": "media/img/multiplayerGames/Checkers.jpg"
+  }
+]

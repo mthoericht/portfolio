@@ -1,0 +1,46 @@
+{
+  "welcome": {"headline": "Welcome to my portfolio",
+              "description":"Please select a category from the menu"},
+  "maincategories": [{
+      "id": "games",
+      "title": "Games",
+      "glyphicon": "glyphicon glyphicon-tower Icon"
+    }, {
+    "id": "projects",
+    "title": "More projects",
+    "glyphicon": "glyphicon glyphicon-education Icon"
+  }, {
+      "id": "photos",
+      "title": "Photography",
+      "glyphicon": "glyphicon glyphicon-picture Icon"
+    }, {
+    "id": "about",
+    "title": "About me",
+    "glyphicon": "glyphicon glyphicon-user Icon"
+  }],
+  "subcategories": [{
+      "id": "hdr",
+      "title": "HDR"
+    }, {
+      "id": "concerts",
+      "title": "Concerts"
+    }, {
+      "id": "wedding",
+      "title": "Wedding"
+    }, {
+      "id": "people",
+      "title": "People"
+    }, {
+      "id": "macro",
+      "title": "Macro"
+    }, {
+      "id": "landscape",
+      "title": "Landscape"
+  }, {
+    "id": "casual",
+    "title": "Casual"
+  }, {
+    "id": "multiplayer",
+    "title": "Multiplayer"
+  }]
+}

@@ -1,0 +1,540 @@
+$font-stack:    Arial, sans-serif;
+//$primary-color: #eae0c2;
+$primary-color: #ffffff;
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+html,
+body,
+ul,
+ol{
+  font: 100% $font-stack;
+  color: $primary-color;
+  //background-color: #333029;
+}
+
+.BodyStyle
+{
+  background-color: #554400;
+}
+
+body
+{
+  color: white;
+  background: linear-gradient(
+                  to bottom,
+                  #363431,
+                  #363431 50%,
+                  #333029 50%,
+                  #333029
+  );
+  background-size: 100% 5px;
+}
+
+//Welcome
+.Welcome
+{
+  //background: yellow;
+  display: block;
+  position: absolute;
+
+  visibility: hidden;
+  opacity: 0;
+
+  .WelcomeHeader
+  {
+    position: relative;
+    text-align: center;
+    padding: 0px 20% 0px 20%;
+    height: auto;
+    font-weight:bold;
+    font-size: 32px;
+    color: $primary-color;
+  }
+
+  .WelcomeDescription
+  {
+    position: relative;
+    text-align: center;
+    padding: 0px 10% 0px 10%;
+    height: auto;
+    font-size: 25px;
+    color: $primary-color;
+  }
+}
+
+
+.Welcome
+{
+  top: 35vh;
+  left: 10vw;
+  width: 80vw;
+  height: 65vh;
+}
+
+section
+{
+  position: absolute;
+  top: 20px;
+}
+
+
+#mainCategories
+{
+  position: absolute;
+
+  .MainCategoryItem
+  {
+    display: inline-block;
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    float: left;
+    //border-radius:15px;
+    border:2px solid #333029;
+    //display:inline-block;
+    cursor:pointer;
+    color:#505739;
+    //color:white;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px 16px;
+    text-decoration:none;
+    //text-shadow:0px 1px 0px #ffffff;
+
+    //background: linear-gradient(to bottom, #eae0c2, #ccc2a6);
+    background: linear-gradient(to bottom, #eaeaea, #bababa);
+
+    .Icon
+    {
+      font-size: 1.5em;
+    }
+  }
+
+  .MainCategoryItem:hover
+  {
+    //background: linear-gradient(to bottom, #ccc2a6, #eae0c2);
+    background: linear-gradient(to bottom, #31b0d5, #2b8fae);
+  }
+
+  .MainCategoryItemActive
+  {
+    //background: linear-gradient(to bottom, #F2CC79, #D1AE62);
+    background: linear-gradient(to bottom, greenyellow, #83b922);
+  }
+
+  .MainCategoryItemActive:hover
+  {
+    //background: linear-gradient(to bottom, #D1AE62, #F2CC79);
+    background: linear-gradient(to bottom, #83b922, greenyellow);
+  }
+}
+
+#subCategories
+{
+  position: absolute;
+
+  .SubCategoryItem
+  {
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    //float: left;
+    //background: linear-gradient(to bottom, #eae0c2, #ccc2a6);
+    background: linear-gradient(to bottom, #eaeaea, #bababa);
+    //border-radius:15px;
+    border:2px solid #333029;
+    display:inline-block;
+    cursor:pointer;
+    color: #41482d;
+    font-size:14px;
+    font-weight:bold;
+    padding:8px 12px;
+    text-decoration:none;
+    //text-shadow:0px 1px 0px #ffffff;
+  }
+
+  .SubCategoryItem:hover
+  {
+    //background: linear-gradient(to bottom, #ccc2a6, #eae0c2);
+    background: linear-gradient(to bottom, #31b0d5, #2b8fae);
+  }
+
+  .SubCategoryItemActive
+  {
+    //background: linear-gradient(to bottom, #F2CC79, #D1AE62);
+    background: linear-gradient(to bottom, greenyellow, #83b922);
+  }
+
+
+  .SubCategoryItemActive:hover
+  {
+    //background: linear-gradient(to bottom, #F2CC79, #D1AE62);
+    background: linear-gradient(to bottom, #83b922, greenyellow);
+  }
+}
+
+#thumb-tooltip
+{
+  position: absolute;
+}
+
+.Thumb-Tooltip
+{
+  +.tooltip
+  {
+    >.tooltip-inner
+    {
+      opacity: 0;
+
+      animation-name: aniTooltip;
+      animation-duration: 0.5s;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;  //This because the animation will stay in final (don't jump back)
+
+      //border-radius: 10px 10px 10px 10px;
+      font-size: 1.5em;
+      color: #252f16;
+      background-color: greenyellow;
+      font-weight: normal;
+    }
+
+    >.tooltip-arrow
+    {
+      opacity: 0;
+      border-top-color: greenyellow;
+    }
+  }
+}
+
+@keyframes aniTooltip
+{
+  from
+  {
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  to
+  {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+#content
+{
+  z-index: -1;
+
+  .ThumbSpawnField
+  {
+    //background: yellow;
+    display: block;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 80vw;
+    height: 65vh;
+  }
+
+  .ThumbItem
+  {
+    display: block;
+    position: absolute;
+    //background: tomato;
+    background: $primary-color;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    //border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 2px 10px rgb(101, 91, 75);
+    margin: 0 auto;
+    overflow: hidden;
+
+    .ThumbImage {
+      -webkit-transition: 0.4s ease;
+      transition: 0.4s ease;
+    }
+
+    .ThumbIcon
+    {
+      display:block;
+
+      -webkit-transition: 0.4s ease;
+      transition: 0.4s ease;
+
+      position: absolute;
+
+      left: 30%;
+      top: 30%;
+      font-size: 3em;
+
+      //top:50%;
+      //display: inline-block;
+      //margin-left:40%;
+      //font-size : 3vw;overflow: hidden;
+
+      color: white;
+      opacity: 0;
+      transform: scale(0);
+    }
+  }
+
+  .ThumbItem:hover
+  {
+    background: #31b0d5;
+    box-shadow: 0 4px 10px rgb(20, 58, 75);
+
+    .ThumbImage
+    {
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    .ThumbIcon
+    {
+      opacity: 1;
+      transform: scale(1);
+      text-shadow: 0 0 5px #555555;
+    }
+  }
+
+  .ContentField
+  {
+    display:block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto;
+
+    .CloseButton
+    {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      background-color: Transparent;
+      border: none;
+
+      .CloseIcon
+      {
+        font-size: 3em;
+        color: white;
+      }
+    }
+
+    .CloseButton:hover
+    {
+
+    }
+
+    .SwitchButton
+    {
+      position: absolute;
+      background-color: Transparent;
+      border: none;
+      width: 60px;
+
+      .SwitchIcon
+      {
+        font-size: 3em;
+        color: white;
+      }
+    }
+
+    .SwitchButton:hover
+    {
+
+    }
+
+
+    .MuteButton
+    {
+      position: absolute;
+      top: 30px;
+      right: 100px;
+      background-color: Transparent;
+      border: none;
+
+      .MuteIcon
+      {
+        font-size: 3em;
+        color: white;
+      }
+    }
+
+    .MuteButton:hover
+    {
+
+    }
+
+    .LargeImage
+    {
+      position: absolute;
+      display:block;
+      //margin: 0px auto 0px auto;
+      width: auto;
+      height: auto;
+      left: auto;
+      top: 3vh;
+      max-width: 65vw;
+      max-height: 65vh;
+    }
+
+
+    .SWFRepeatButton
+    {
+      position: absolute;
+      display:block;
+      background-color: Transparent;
+      border: none;
+      transform: scale(0);
+
+      .SWFRepeatIcon
+      {
+        text-shadow: 2px 2px 8px #000000;
+        font-size: 18em;
+        color: white;
+
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease;
+      }
+    }
+
+    .SWFRepeatButton:hover
+    {
+      .SWFRepeatIcon
+      {
+        -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+        -o-transform: rotate(30deg);
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+      }
+    }
+
+    .Description
+    {
+      //font: 100% $font-stack;
+      font-size:18px;
+      color: white;
+      position: absolute;
+      //display:block;
+      padding: 10px 10px 10px 10px;
+      width: 70vw;
+      left: 15vw;
+      height: 180px;
+      background-color: Transparent;
+
+      span
+      {
+        position: relative;
+        display:inline-block;
+        -webkit-font-smoothing:antialiased;
+      }
+    }
+  }
+}
+
+#imprint
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+
+  visibility: hidden;
+  opacity: 0;
+
+  .ImprintText
+  {
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+
+    border-radius:15px;
+    border:2px solid #333029;
+    color: black;
+    background: linear-gradient(to bottom, #eae0c2, #ccc2a6);
+    padding: 20px;
+    overflow: auto;
+  }
+
+  .BtnImprintClose
+  {
+    position: absolute;
+    top: 10vh;
+    left: 80vw;
+    background-color: Transparent;
+    border: none;
+
+    .ImprintCloseIcon
+    {
+      font-size: 3em;
+      color: white;
+    }
+  }
+}
+
+.Footer
+{
+  position: absolute;
+  height: 5vh;
+  width: 95vw;
+  bottom: 3vh;
+  left: 20px;
+  color: $primary-color;
+  //background-color: greenyellow;
+
+
+  .FooterProfileImage
+  {
+    width: auto;
+    height: auto;
+    border:2px solid white;
+  }
+
+  .FooterProfileImage:hover
+  {
+    border:2px solid #31b0d5;
+  }
+
+  .FooterOwner
+  {
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+  }
+
+  .BtnImprint
+  {
+    background-color: Transparent;
+    border: none;
+  }
+}

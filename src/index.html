@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=850"/>
+    <title>Marcus Thöricht</title>
+    <meta name="author" content="Marcus Thöricht">
+    <meta name="publisher" content="Marcus Thöricht">
+    <meta name="copyright" content="Marcus Thöricht">
+    <meta name="description" content="Portfolio with Work-Examples and Photogalery.">
+    <meta name="keywords" content="Games, Flash, Portfolio, Photogalery, Fotos, Fotogalerie, Casualgames, about Marcus Thöricht, Game-Examples">
+    <meta name="page-type" content="Private Homepage">
+    <meta name="audience" content="Alle"><meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="data/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--JavaScript-->
+    <script>window.jQuery || document.write('<script src="js/lib/vendor/jquery-1.11.3.min.js"><\/script>')</script>-->
+    <script src="js/lib/ext/TweenMax.js"></script>
+    <script src="js/lib/ext/utils/Draggable.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/swfobject.js"></script>
+    <script src="js/lib/loadingoverlay.js"></script>
+    <script src="js/lib/hammer.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/MainCategoriesHandler.js"></script>
+    <script src="js/SubCategoriesHandler.js"></script>
+    <script src="js/URLParameterHandler.js"></script>
+    <script src="js/ContentHandler.js"></script>
+    <script type="text/javascript">window.onload = init;</script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-73310041-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+</head>
+<body>
+<div id="welcome" class="Welcome">
+    <div id="welcomeHeader" class="WelcomeHeader">Header Lorem ipsun und vieles mehr <br></div>
+    <hr>
+    <div id="welcomeDescription" class="WelcomeDescription">According to Roeder, the rise of the Geek is not so much a product of Darwinian ‘Natural Selection’, but rather of Man-m</div>
+</div>
+<section id="menu">
+    <div id="mainCategories" class="MainCategories"></div>
+    <div id="subCategories" class="SubCategories"></div>
+</section>
+<div id="content" class="Content">
+    <div id="contentField" class="ContentField">
+        <button id="muteButton" class="MuteButton"></button>
+        <button id="closeButton" class="CloseButton"><span class="glyphicon glyphicon-remove-circle CloseIcon"></span></button>
+        <button id="buttonNext" class="SwitchButton"><span class="glyphicon glyphicon-step-forward SwitchIcon"></span></button>
+        <button id="buttonPrevious" class="SwitchButton"><span class="glyphicon glyphicon-step-backward SwitchIcon"></span></button>
+        <div id="contentImage"></div>
+        <div id="contentDescription" class="Description"></div>
+    </div>
+    <div id="thumbSpawnField" class="ThumbSpawnFieldHorizontal"></div>
+</div>
+
+<div id="imprint">
+    <button id="btnImprintClose" class="BtnImprintClose"><span class="glyphicon glyphicon-remove-circle ImprintCloseIcon"></span></button>
+    <div id="imprintText" class="ImprintText">
+
+        <h2>Imprint</h2><br>
+
+        <h4>Address:</h4>
+
+        Marcus Thöricht<br>
+        Hussitenstraße 73<br>
+        13355 Berlin (Germany)<br>
+        Phone: +49 178 1348262<br>
+        eMail: <a href="mailto:mthoericht@web.de">mthoericht@web.de</a><br>
+        Web: <a href="http://www.marcus-thoericht.de">http://www.marcus-thoericht.de</a><br>
+
+
+        <h2>1. Content</h2>
+
+        The author reserves the right not to be responsible for the topicality, correctness, completeness or quality of the information provided.
+        Liability claims regarding damage caused by the use of any information provided,
+        including any kind of information which is incomplete or incorrect, will therefore be rejected.
+        All offers are not-binding and without obligation. Parts of the pages or the complete publication including all offers and information might be extended,
+        changed or partly or completely deleted by the author without separate announcement.
+
+        <h2>2. Referrals and links</h2>
+
+        The author is not responsible for any contents linked or referred to from his pages - unless he has full knowledge of illegal contents and would
+        be able to prevent the visitors of his site from viewing those pages. If any damage occurs by the use of information presented there, only the author of
+        the respective pages might be liable, not the one who has linked to these pages. Furthermore the author is not liable for any postings or messages
+        published by users of discussion boards, guestbooks or mailinglists provided on his page.
+
+        <h2>3. Copyright</h2>
+
+        All media from non-commercial products on the site are copyright by Marcus Thöricht. Commercial product copyrights belong to the respective owners.
+        The copyright for any material created by the author is reserved.
+        Any duplication or use of objects such as diagrams, sounds or texts in other electronic or printed publications is not permitted without the author's agreement.
+        If you would inform me that you have still found a copyright, I would greatly appreciate it.
+        Then I can remove the corresponding content immediately and would allow the copyright no longer hurt.
+
+        <h2>4. Privacy policy</h2>
+
+        If the opportunity for the input of personal or business data (email addresses, name, addresses) is given,
+        the input of these data takes place voluntarily. The use and payment of all offered
+        services are permitted - if and so far technically possible and reasonable - without specification of any personal
+        data or under specification of anonymizated data or an alias.
+        In addition, is used on this website Google Analytics, this service is used for anonymous tracking of user activities.
+
+        <h2>5. Legal validity of this disclaimer</h2>
+
+        This disclaimer is to be regarded as part of the internet publication which you were referred from.
+        If sections or individual terms of this statement are not legal or correct,
+        the content or validity of the other parts remain uninfluenced by this fact.
+    </div>
+</div>
+
+<div class="Thumb-Tooltip" id="thumb-tooltip" data-toggle="tooltip" data-placement="top" title="Tooltip" data-animation="false" data-trigger="manual"/></div>
+
+<div class="Footer">
+    <a href="skype:maxpower1985?chat">
+        <img src="media/img/icons/skype-40x40.png" alt="Skype Me™!" class="FooterProfileImage">
+    </a>
+    &nbsp;
+    <a href="http://www.xing.com/profile/Marcus_Thoericht" target="_blank" rel="me">
+        <img src="media/img/icons/xing-40x40.png" alt="Xing profile of Marcus Thöricht" class="FooterProfileImage">
+    </a>
+    &nbsp;
+    <a href="https://de.linkedin.com/pub/marcus-th%C3%B6richt/4a/979/b82" target="_blank">
+        <img src="media/img/icons/linkedin-40x40.png" alt="Profil von Marcus Thöricht auf LinkedIn anzeigen" class="FooterProfileImage">
+    </a>
+    <div class="FooterOwner">
+        <button id= "btnImprint" class="BtnImprint">Imprint</button>
+        &nbsp;&nbsp; &#169; 2016 Marcus Thöricht. All rights reserved.
+    </div>
+</div>
+</body>
+</html>

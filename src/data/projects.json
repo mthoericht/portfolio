@@ -1,0 +1,56 @@
+[
+  {
+    "id": "renderwiese",
+    "title": "Rendermanagement-Software (Java)",
+    "description": "This software is designed to manage an image database with scenes for rendering projects. (Java, HS-Harz)",
+    "thumb_image": "media/img/projects/Renderwiese-klein_cms_thumb.jpg",
+    "large_image": "media/img/projects/Renderwiese-klein.jpg"
+  },{
+  "id": "hdrviewer",
+  "title": "High Dynamic Range Generator (Java)",
+  "description": "This tool is used to create HDR images and then tone mapping. It was realized in the framework of the seminar Applied Color Science (HS-Harz) with Java. In this group project I had developed the HDR- and histogram generation.",
+  "thumb_image": "media/img/projects/HDR-Viewer-klein_cms_thumb.jpg",
+  "large_image": "media/img/projects/HDR-Viewer-klein.jpg"
+  },{
+  "id": "voyager",
+  "title": "Voyager Simulator (Java-3D)",
+  "description": "In this project, you can simulate the flight of the Voyager probes. (Java 3D, HS-Harz)",
+  "thumb_image": "media/img/projects/Voyager_complete_thumb.jpg",
+  "large_image": "media/img/projects/Voyager_complete.jpg"
+},{
+  "id": "race1",
+  "title": "Race (Virtools)",
+  "description": "This group project was developed as part of the event interface lab (HS-Harz). This racing game can be controlled using the Wii controller. (Virtools)",
+  "thumb_image": "media/img/projects/Race_complete_thumb.jpg",
+  "large_image": "media/img/projects/Race_complete.jpg"
+},{
+  "id": "elearnmercks",
+  "title": "eLearning Merck Serono (Flash)",
+  "description": "This project I had realized at the Juwi MacMillan Group GmbH. It is an information platform for Merck Serono, which is aimed at couples with reproductive problems. It was implemented in Flash (ActionScript 3.0)",
+  "thumb_image": "media/img/projects/eLearning-MerckS_thumb.jpg",
+  "large_image": "media/img/projects/eLearning-MerckS.jpg"
+},{
+  "id": "elearnsandoz",
+  "title": "eLearning Sandoz (Flash)",
+  "description": "This project I had realized at the Juwi MacMillan Group GmbH. It is an information platform for Sandoz, which provides the matching films (On time) and test tasks for disposal to lectures. The learning content also provide a possible 3D. It was implemented in Flash (ActionScript 3.0) ",
+  "thumb_image": "media/img/projects/eLearning-Sandoz_thumb.jpg",
+  "large_image": "media/img/projects/eLearning-Sandoz.jpg"
+},{
+  "id": "reactower",
+  "title": "ReacTower (Virtools & reacTIVision)",
+  "description": "As part of subject Interface Design I realized this group project with Lena Schimmel, Julia Behrens and Julia Staufenbiel. The game itself is modeled on Desktop Tower Defense. This game can interact on the board of the user with the help of dice. The towers are positioned with them and upgraded by turning.",
+  "thumb_image": "media/img/projects/ReacTower_thumb.jpg",
+  "large_image": "media/img/projects/ReacTower.jpg"
+},{
+  "id": "mpm1",
+  "title": "Multimedia Projectmanagement (Design)",
+  "description": "As part of subject Multimedia-Projectmanagement I realized this group project with Alexander Heß. The aim of this project was to improve Franco-German relations. For this purpose a concept for a Community Museum was drawn up. Here you can see my design of 2 posters.",
+  "thumb_image": "media/img/projects/MPM_complete_thumb.jpg",
+  "large_image": "media/img/projects/MPM_complete.jpg"
+},{
+  "id": "guestlist1",
+  "title": "Guestlist (JavaScript)",
+  "description": "I created the guestlist for a bar in Berlin. The data will be provided to me via a REST-Service. You can check the guests and add new guests manually. When looking for the guests there is a filter- and sorting function. Technologies used: AngularJS, Bootstrap, AJAX, jQuery",
+  "thumb_image": "media/img/projects/GuestList_thumb.jpg",
+  "large_image": "media/img/projects/GuestList.jpg"
+}]
