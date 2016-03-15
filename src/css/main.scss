@@ -512,6 +512,15 @@ section
   color: $primary-color;
   //background-color: greenyellow;
 
+  .FooterProfileLink::before
+  {
+    //content: '\0000a0';
+  }
+
+  .FooterProfileLink
+  {
+    margin-left: 10px;
+  }
 
   .FooterProfileImage
   {

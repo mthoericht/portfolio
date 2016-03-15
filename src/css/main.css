@@ -291,6 +291,8 @@ section {
   bottom: 3vh;
   left: 20px;
   color: #ffffff; }
+  .Footer .FooterProfileLink {
+    margin-left: 10px; }
   .Footer .FooterProfileImage {
     width: auto;
     height: auto;
